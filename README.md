@@ -1,44 +1,28 @@
-# Brainwave_Matrix_Intern
+# Brainwave Matrix Intern Analysis
 
-This repository contains two analysis files based on the **Vrinda Store 2022** dataset. The project includes both **Power BI** and **Python** analyses.
+This repository contains the analysis conducted during my internship with **Brainwave Matrix Solutions**. The project involves examining Vrinda Store's 2022 sales data using **Power BI** and **Python**, each providing unique insights and visualizations.
 
-## Power BI Analysis
-- **Dashboard** that showcases:
-  - Total Sales
-  - Total Sales by Channel
-  - Total Sales by Category
-  - Total Sales by Size
-  - Total Sales by Age Group
-  - Total Sales by State (Map)
-  - Month slicer for dynamic reporting
+## Repository Structure
 
-## Python Analysis
-The Python analysis includes several key metrics and visualizations using libraries like pandas, seaborn, and matplotlib. The steps include:
-- Data import, cleaning, and transformation.
-- **MoM Growth Calculation**: Month-on-Month growth of sales.
-- **Total Sales Analysis**: By Year, Month, Category, State, Age Group, etc.
-- **Sales Growth Over Time**: Analyzing the sales trend and performance.
-- **Sales Funnel Chart**: Tracking customer conversion at various stages.
-- **Distribution of Sales**: Sales distribution across different states, categories, etc.
-- **Top Customers**: Analysis of top customers by purchase amount.
+- **PowerBI Files** (`PowerBI files/`):
+  - Contains the Power BI (`.pbix`) file used to create the analysis.
+  - **Screenshot** of the dashboard, showcasing metrics such as total sales by channel, category, size, and age, and sales by state.
 
-## Setup
+- **Python Files** (`python files/`):
+  - Includes the Jupyter Notebook (`.ipynb`) file, where the data analysis and visualization are done.
+  - **Screenshots** of the code and key visualizations (like sales trends, top customers, and sales distribution).
 
-To run the Python analysis:
-1. Clone this repository.
-2. Install the required libraries:
-   ```bash
-   pip install pandas numpy seaborn matplotlib
-   ```
-3. Run the `python_analysis.py` script to see the results.
+- **Data** (`data/`):
+  - **Store Data.xlsx**: The raw dataset used for analysis.
 
-For Power BI:
-1. Open the Power BI file to explore the dashboard and interact with the data.
+## Analysis Overview
+
+- **Power BI Analysis**:
+  - Developed an interactive dashboard with metrics on total sales by channel, category, size, and age, along with state-level mapping.
+  
+- **Python Analysis**:
+  - Conducted in-depth analysis, including sales trend analysis, customer segmentation, and state-wise sales distribution, with month-over-month growth and key metrics visualized.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Special thanks to **Brainwave Matrix Solutions** for the internship opportunity and guidance.
+This project is licensed under the MIT License.
